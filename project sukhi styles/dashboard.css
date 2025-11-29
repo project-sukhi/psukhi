@@ -1,0 +1,167 @@
+
+     body{
+      background: #f4f7fc;
+     }
+     .whole-container{
+    display: flex;
+    height: 100vh;   
+     }
+     .sidebar{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 230px;
+      background: #ffffff;
+      padding: 20px;
+      border-right: 1px solid #e5e5e5;
+       overflow-y: auto;
+     }
+     .logo{
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 30px;
+     }
+     .menu{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap:18px; 
+     }
+     .menu li{
+      font-size: 16px;
+      color: #555;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+     }
+     .menu li.active,
+     .menu li:hover {
+       font-weight: 600;
+       color: #007bff;
+     }
+     .calculator{
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #555;
+      padding: 8px;
+      border-radius: 10px;
+      color: white;   
+     }
+     .main{
+      flex: 1;
+      padding: 20px 30px;
+      overflow-y: auto;
+     
+     }
+     .topbar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     }
+    .profile {
+      background: #007bff;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+    }
+    .card{
+      background:  #ffffff;
+      border-radius: 10px;
+      padding:20px;
+      margin-top:25px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+    .card h2{
+      font-size:18px;
+      margin-bottom: 15px;
+    }
+    .chart-box{
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        height: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .fake-chart {
+      opacity: 0.4;
+      font-size: 22px;
+      font-weight: 600;
+    }
+    .card2{
+      background-color: #007bff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 25px;
+      color: white;
+    }
+    .row{
+      display: flex;
+      justify-content: space-between;
+    }
+    .Expenses{
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      color: #007bff;
+    }
+    .card3{
+      background:  #ffffff;
+      border-radius: 10px;
+      padding:20px;
+      margin-top:25px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+    .row1{
+      display: flex;
+      justify-content: space-between;
+      border-width: 1px;
+      padding: 10px 20px;
+      border-style: none;
+      box-shadow: 4px 4px 15px rgba(0.1, 0.1, 0.1, 0.1);
+      background-color: #f4f7fc;;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      
+    }
+    .sub-row1 p, .sub-row2 p{
+      margin: 0;
+    }
+    h3{
+      margin-bottom: 15px;
+    }
+    .s1{
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .cost{
+      font-weight: 600;
+      font-size: 16px;
+      color: rgb(54, 54, 215);
+    }
+    .s2{
+      color: #888;  
+    }
+    .date{
+      color: #888;
+    }
+
+
+  
